@@ -1,6 +1,6 @@
 <h1>Splunk Home Lab</h1>
 
- ### [YouTube Demonstration](https://youtu.be/yPUKnArW0NQ)
+ ### [YouTube Demonstration](https://youtu.be/1g3A_Dg1Sng)
 
 <h2>Description</h2>
 This project involves creating a virtual network in VMware Workstation that includes an Active Directory Domain Controller configured with DHCP and remote access, along with a Windows 10 virtual machine. I installed and configure Splunk Enterprise Security Incident & Event Manager (SEIM) for Security Orchestration, Automation, & Response (SOAR). 
@@ -22,41 +22,51 @@ This project involves creating a virtual network in VMware Workstation that incl
 
 <p align="center">
 Diagram providing high-level overview of the virtual network: <br/>
-<img src="https://i.imgur.com/1bCn34E.png" height="80%" width="80%" alt="Diagram"/>
+<img src="https://i.imgur.com/xggX1WG.png" height="80%" width="80%" alt="Diagram"/>
 <br/>
 <br/>
-Creating Virtual Machines (Domain Controller and Client): <br/>
-<img src="https://i.imgur.com/9meuBoG.png" height="40%" width="40%" alt="Domain Controller"/>  <img src="https://i.imgur.com/kViNEdU.png" height="42%" width="42%" alt="Client"/>
+Installation & Launch of Splunk Enterprise: <br/>
+<img src="https://i.imgur.com/zU7cUnn.png" height="45%" width="45%" alt="Installation"/>  <img src="https://i.imgur.com/X3O7slf.png" height="42%" width="42%" alt="Launch"/>
 <br />
 <br/>
-Adding server roles (Active Directory Domain Services, DHCP Server, DNS Server, Remote Access): <br/>
-<img src="https://i.imgur.com/uqRqOXD.png" height="80%" width="80%" alt="Server Roles and Features"/>
+Log on to Home Page of Splunk Enterprise: <br/>
+<img src="https://i.imgur.com/40PkLSj.png" height="80%" width="80%" alt="Log in"/>
 <br />
 <br />
-Configuring DC Network Interface Cards (NICs):  <br/>
-<img src="https://i.imgur.com/1bCEDn6.png" height="40%" width="40%" alt="Internal NIC"/>  <img src="https://i.imgur.com/VEoyWe2.png" height="40.5%" width="40.5%" alt="External NIC"/>
+Configuration of Data Inputs:  <br/> 
+<img src="https://i.imgur.com/3H8i9ce.png" height="80%" width="80%" alt="Menu"/>
 <br />
 <br />
-DHCP Scope to create pool of IP addresses for devices connecting to the domain: <br/>
-<img src="https://i.imgur.com/m0vtwpS.png" height="80%" width="80%" alt="DHCP Scope"/>
+Event Log Collection selection: <br/>
+<img src="https://i.imgur.com/t5Rw73U.png" height="80%" width="80%" alt="Data inputs"/>
 <br />
 <br />
-DNS Server:  <br/>
-<img src="https://i.imgur.com/fhKyfn5.png" height="80%" width="80%" alt="DNS Server"/>
+Search & Reporting :  <br/>
+Using wildcard “*” to display all ingested log for last 24 hours:  <br/>
+<img src="https://i.imgur.com/3t0ExgQ.png" height="80%" width="80%" alt="Log search results"/>
 <br />
 <br />
-Windows !0 VM added to the domain:  <br/>
-<img src="https://i.imgur.com/EMJxRWk.png" height="80%" width="80%" alt="Windows10"/>
+SQL Query showing the clearing of Audit Logs:  <br/>
+<img src="https://i.imgur.com/71BdC1d.png" height="80%" width="80%" alt="Clear Logs"/>
 <br />
 <br />
-Active Directory Users and Computers:  <br/>
-<img src="https://i.imgur.com/MxM6A3f.png" height="40%" width="40%" alt="AD Users"/>  <img src="https://i.imgur.com/IHMvjSo.png" height="50%" width="50%" alt="AD Computers"/>
-<br />
-<br />
-Observe User conduct a Domain Log on:  <br/>
-<img src="https://i.imgur.com/IJ0NPj1.png" height="80%" width="80%" alt="Domain Login"/>
+Using current search parameters to create a Dashboard Event Table:  <br/>
+<img src="https://i.imgur.com/SmHRNUo.png" height="80%" width="80%" alt="Create Table"/>
+<br/>
+<br/>
+Setting Table as Home Dashboard:  <br/>
+<img src="https://i.imgur.com/NHL3Ynm.png" height="80%" width="80%" alt="Create Table"/>
+<br/>
+<br/>
+Dashboard View:  <br/>
+<img src="https://i.imgur.com/LsY2D08.png" height="80%" width="80%" alt="Create Table"/>
+<br/>
+<br/>
+SPLUNK CERTS:  <br/>
+<img src="https://i.imgur.com/t8MwqKu.png" height="60%" width="60%" alt="Intro to Splunk"/>
+<img src="https://i.imgur.com/e1Anh3B.png" height="60%" width="60%" alt="Intro to Splunk Enterprise Security"/>
+<img src="https://i.imgur.com/KfMAA7u.png" height="60%" width="60%" alt="Intro to Splunk Soar"/>
 </p>
-
 <!--
  ```diff
 - text in red
